@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Escape Room</title>
+		<meta charset="utf-8">
+		<style>
+			div {
+				width: 95vw;
+				height: 95vh;
+				background-image: url('../../Bilder/tree1.jpg');
+				background-repeat: no-repeat;
+				background-size: contain;
+			}
+			body {
+				background-color: black;
+			}
+			.before::before, .after::after {
+				content: "\A";
+				white-space: pre;
+			}
+			* {
+				padding: 0;
+				margin: 0;
+			}
+			body, html {
+				width: 900px;
+				margin: 0 auto;
+			}
+			h1 {
+				color: white;
+			}
+			p {
+				color: white;
+			}
+			a {
+				color: white;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<div>
+			<h1>Es wird dunkler, je weiter ich <span class="after">an</span> den Rand der Lichtung gehe<span class="after">.</span> Die Dunkelheit hinter den Bäumen verschlingt alle Formen.</h1>
+			<p><a href="Light.html">Ich schalte die Handytaschenlampe ein.</a></p>
+			<p><a href="Exit.html">Ich setze vorsichtig einen Fuß ins Gestrüpp.</a></p>
+		</div>
+	</body>
+</html>

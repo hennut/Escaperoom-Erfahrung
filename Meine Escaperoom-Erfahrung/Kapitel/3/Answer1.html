@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Escape Room</title>
+		<meta charset="utf-8">
+		<style>
+			div {
+				width: 95vw;
+				height: 95vh;
+				background-image: url('../../Bilder/black.jpg');
+				background-repeat: no-repeat;
+				background-size: contain;
+			}
+			body {
+				background-color: black;
+			}
+			.before::before, .after::after {
+				content: "\A";
+				white-space: pre;
+			}
+			* {
+				padding: 0;
+				margin: 0;
+			}
+			body, html {
+				width: 900px;
+				margin: 0 auto;
+			}
+			h1 {
+				color: white;
+			}
+			p {
+				color: white;
+			}
+			a {
+				color: white;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<div>
+			<h1>Das Wesen aus dem Wald hat mich erreicht <span class="after">und</span> springt von oben auf mich hinunter<span class="after">.</span> Vor schreck zitternd sitze ich senkrecht in meinem Bett.</h1>
+			<p><a href="../2/Coffee.html">Ich stehe auf und mache mir einen Kaffee.</a></p>
+			<p><a href="../1/OpenEyes.html">Ich lege mich wieder hin (Neustart).</a></p>
+		</div>
+	</body>
+</html>
